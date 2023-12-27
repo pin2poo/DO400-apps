@@ -27,5 +27,7 @@ pipeline{
                   oc project owkyvj-greetings
                   oc start-build greeting-console --follow --wait
               '''
-    }
-}
+           }
+        }
+      }
+   }
