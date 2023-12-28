@@ -20,7 +20,7 @@ pipeline{
                 sh "npm test"
             }
         }
-        stage('Release'){
+        stage("Release"){
             steps{
                 sh ''' 
                     oc project owkyvj-greetings
